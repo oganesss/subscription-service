@@ -1,0 +1,14 @@
+http:
+  address: ":8080"
+  read_timeout_seconds: 10
+  write_timeout_seconds: 10
+  idle_timeout_seconds: 60
+postgres:
+  dsn: "postgres://subs:subs@localhost:5432/subs?sslmode=disable"
+  max_conns: 10
+  min_conns: 2
+log:
+  level: "info"
+
+
+
